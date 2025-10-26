@@ -1,3 +1,6 @@
 [submodule "usat"]
 	path = usat
 	url = https://github.com/JamesBedson/universal_transcoder.git
+[submodule "randspk"]
+	path = randspk
+	url = git@github.com:JamesBedson/randspk.git
