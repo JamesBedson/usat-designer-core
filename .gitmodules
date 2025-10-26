@@ -1,0 +1,3 @@
+[submodule "usat"]
+	path = usat
+	url = https://github.com/JamesBedson/universal_transcoder.git
