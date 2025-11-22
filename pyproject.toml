@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usat-designer-core"
+version = "0.0.1"
+description = "USAT designer core utilities for the USAT Designer Plugin."
+requires-python = ">=3.12"
+authors = [
+  { name = "James Bedson", email = "jamesbedson0@gmail.com" }
+]
+dependencies = [
+    "usat-designer-common @ git+https://github.com/JamesBedson/usat-designer-common.git"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
