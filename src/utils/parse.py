@@ -1,5 +1,5 @@
 # ===========================================================
-# Universal Transcoder - Parse Settings Module
+# Universal Transcoder - XML Parse Module
 # ===========================================================
 
 # Miscellaneous imports
@@ -10,9 +10,9 @@ from numpy import array as npArray
 from universal_transcoder.auxiliars.my_coordinates import MyCoordinates
 
 # USAT Designer Common imports
-from usat_designer_common.constants.const_data import *
-from usat_designer_common.constants.const_optimisation import *
-from usat_designer_common.constants.const_io import *
+from usat_designer_common.constants.data import *
+from usat_designer_common.constants.opt import *
+from usat_designer_common.constants.io import *
 
 # USAT Designer Core imports
 from utils.enc_dec import (

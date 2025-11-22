@@ -22,8 +22,8 @@ from universal_transcoder.auxiliars.get_input_channels import (
 )
 
 # USAT Designer Common imports
-from usat_designer_common.constants.const_io import *
-from usat_designer_common.constants.const_optimisation import *
+from usat_designer_common.constants.io import *
+from usat_designer_common.constants.opt import *
 
 # ================================================================
 

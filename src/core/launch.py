@@ -10,9 +10,8 @@ import threading
 import matplotlib
 
 # USAT Designer Common imports
-from usat_designer_common.constants.const_io import *
-from usat_designer_common.constants.const_optimisation import *
-from usat_designer_common.common.plot import *
+from usat_designer_common.constants.opt import *
+from usat_designer_common.constants.data import *
 from usat_designer_common.common.optimize import optimize_for_usat_designer
 
 # USAT Designer Core imports

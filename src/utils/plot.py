@@ -3,11 +3,10 @@
 # ===============================================================
 
 # Miscellaneous imports
-from typing import Dict
 from matplotlib.colors import LinearSegmentedColormap
 
 # USAT Designer Common imports
-from usat_designer_common.constants.const_data import *
+from usat_designer_common.constants.data import *
 from usat_designer_common.common.plot import plot_scalar_map
 
 # Universal Transcoder imports
